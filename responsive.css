@@ -1,0 +1,5 @@
+@media (max-width: 576px) {
+  .custom-heading {
+    font-size: 32px; /* or any smaller size you prefer */
+  }
+}

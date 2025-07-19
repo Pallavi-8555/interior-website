@@ -1,0 +1,70 @@
+.navbar-nav .nav-link {
+  color: white;
+  font-size: 18px;
+  margin-left: 30px;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active:hover {
+  color: #f9bf29 !important;
+}
+
+.custom-heading {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 55px;
+    line-height: 1.2;
+    }
+.btn-shop, .btn-explore {
+  background-color: #3B5D50;
+  color: white;
+  border: 2px solid white;
+}
+
+.btn-shop:hover, .btn-explore:hover {
+  background-color: #f9bf29;
+  color: black;
+}
+.shop-heading{
+  font-family: 'Inter', sans-serif;
+  font-size:32px;
+}
+.shop-para{
+  font-family: 'Inter', sans-serif;
+  font-size:14px;
+  line-height: 1.8;
+  
+}
+.btn-1{
+    border: 2px solid #3B5D50;
+  background-color:#3B5D50;
+  color:white;
+}
+.btn-1:hover {
+  background-color: #f9bf29;
+  color: black;
+}
+.about-heading{
+   font-family: 'Inter', sans-serif;
+  font-size:30px;
+}
+.about-para{
+ font-family: 'Inter', sans-serif;
+  font-size:14px;
+  line-height: 1.8;
+  }
+  .feature-heading{
+    font-family: 'Inter', sans-serif;
+  font-size:14px;
+  font-weight:500
+}
+.feature-para{
+ font-family: 'Inter', sans-serif;
+  font-size: 14px;
+   line-height: 22px;
+   color: #6a6a6a;
+}
+.img-about{
+  border-radius:20px;
+}
