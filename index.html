@@ -27,22 +27,27 @@
 </head>
 
 <body>
-       <!--navbar starts-->
-
+  <!--  Navbar Starts -->
   <div class="container-fluid" style="background-color: #3B5D50;">
+
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid mt-2">
-        <h3 class="" style="color: white;margin-left: 80px;">Furni</h3>
 
+        <h3 style="color: white; margin-left: 80px;">
+          <i class="fa-solid fa-couch" style="margin-right: 8px;"></i> Decorify
+        </h3>
+
+        <!-- Toggle Button for Mobile -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
+        <!-- Navbar Links -->
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item ">
-              <a class="nav-link active" style="color: #f9bf29;;" aria-current="page" href="index.html">Home</a>
+            <li class="nav-item">
+              <a class="nav-link active" style="color: #f9bf29;" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="shop.html">Shop</a>
@@ -65,64 +70,70 @@
             <li class="nav-item">
               <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
             </li>
-
           </ul>
         </div>
       </div>
     </nav>
-    <!--navbar ends-->
+    <!--  Navbar Ends -->
 
-    <!--header section start-->
+    <!-- Header Section Starts -->
+    <div class="row d-flex align-items-center ms-5" style="margin-left: 60px; ">
+      <div class="col-md-5 mb-4 col-12">
+        <h1 class="fw-bold custom-heading" style="color: white;">Modern Interior <br> Design Studio</h1>
 
-    <div class="row d-flex align-items-center ms-5" style="margin-left: 60px;">
-      <div class=" col-md-5 mb-4  col-12 ">
-        <h1 class="fw-bold custom-heading  ">Modern Interior <br> Design Studio</h1>
+        <p class="mt-4 w-75" style="color: white; font-size: 14px;">
+          Elevate your home with sleek and stylish designs. Our studio blends comfort and creativity to craft spaces
+          that truly reflect you.
+        </p>
 
-        <p class="mt-4 w-75" style="color: white; font-size: 14px;">Donec vitae odio quis nisl dapibus malesuada. Nullam
-          ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
 
-        <button class="btn-shop  rounded-pill mt-4 px-3 py-2">Shop Now</button>
+        <button class="btn-shop rounded-pill mt-4 px-3 py-2">Shop Now</button>
         <button class="btn-explore rounded-pill mt-4 px-4 py-2">Explore</button>
-
-
       </div>
+
       <div class="col-md-7 col-12">
-        <img src="images/couch.png" alt="" class="img-fluid">
+        <img src="images/couch.png" alt="Modern Sofa" class="img-fluid">
       </div>
     </div>
+
   </div>
-  <!--header section ends-->
+  <!--  Header Section Ends -->
 
   <!--SHOP section start-->
   <div class="container">
-    <div class="row " style="margin-top: 60px;">
+    <div class="row" style="margin-top: 60px;">
+
       <div class="col-lg-3 col-sm-12 text-md-center text-lg-start col-12 text-center">
-        <h3 class="shop-heading">Crafted with <br>excellent material.</h3>
-        <p class="shop-para mt-3">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam
-          vulputate velit imperdiet
-          dolor tempor tristique.</p>
-        <button class=" btn-1 rounded-pill px-4 py-2  mb-4">Explore</button>
+        <h3 class="shop-heading mt-4">Crafted with <br> excellence & care.</h3>
+        <p class="shop-para mt-3">
+          Discover timeless furniture made from premium materials, blending style, comfort, and durability to elevate
+          every corner of your home.
+        </p>
+        <button class="btn-1 rounded-pill px-4 py-2 mb-4">Explore</button>
       </div>
-      <div class="col-lg-9 col-md-12 d-flex justify-content-center flex-wrap gap-5 ">
+
+      <!-- Products -->
+      <div class="col-lg-9 col-md-12 d-flex justify-content-center flex-wrap gap-5">
+
         <!-- Product 1 -->
         <div class="text-center">
-          <img src="images/product-1.png" alt="" class="img-fluid" style="width: 261px;height: 261px;">
+          <img src="images/product-1.png" alt="Nordic Chair" class="img-fluid" style="width: 261px;height: 261px;">
           <h3>Nordic Chair</h3>
           <strong>$50.00</strong>
         </div>
 
         <!-- Product 2 -->
         <div class="text-center">
-          <img src="images/product-2.png" alt="" class="img-fluid" style="width: 261px;height: 261px;">
-          <h3>Nordic Chair</h3>
-          <strong>$50.00</strong>
+          <img src="images/product-2.png" alt="Kraft Chair" class="img-fluid" style="width: 261px;height: 261px;">
+          <h3>Kraft Chair</h3>
+          <strong>$65.00</strong>
         </div>
 
         <!-- Product 3 -->
         <div class="text-center">
-          <img src="images/product-3.png" alt="" class="img-fluid" style="width: 261px;height: 261px;">
-          <h3>Nordic Chair</h3>
-          <strong>$50.00</strong>
+          <img src="images/product-3.png" alt="Elegant Sofa" class="img-fluid" style="width: 261px;height: 261px;">
+          <h3>Elegant Sofa</h3>
+          <strong>$120.00</strong>
         </div>
       </div>
     </div>
@@ -130,16 +141,18 @@
   <!--SHOP section ends-->
 
 
+
   <!--About us section start-->
   <div class="container" style="margin-top: 180px;">
     <div class="row align-items-center">
 
-      <!-- Left Column: Text + 4 Features -->
+
       <div class="col-lg-7 col-md-12">
         <h2 class="about-heading text-md-start text-center">Why Choose Us</h2>
-        <p class="about-para text-md-start text-center">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
-          velit. Aliquam
-          vulputate velit imperdiet dolor tempor tristique.</p>
+        <p class="about-para text-md-start text-center">
+          We create furniture that blends style, comfort, and durability. From fast delivery to secure payments, we make
+          your shopping experience effortless and enjoyable.
+        </p>
 
         <div class="row mt-5">
           <!-- Feature 1 -->
@@ -149,8 +162,9 @@
                 <img src="images/truck.svg" alt="" class="img-fluid">
               </div>
               <h3 class="feature-heading">Fast and Free Shipping</h3>
-              <p class="feature-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est natus aliquam
-                sapiente dolores eius, et pariatur quam deleniti !</p>
+              <p class="feature-para">
+                Get your favorite furniture delivered quickly and at no extra cost—right to your doorstep.
+              </p>
             </div>
           </div>
 
@@ -161,8 +175,9 @@
                 <img src="images/truck.svg" alt="" class="img-fluid">
               </div>
               <h3 class="feature-heading">Easy to Shop</h3>
-              <p class="feature-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est natus aliquam
-                sapiente dolores eius, et pariatur quam deleniti !</p>
+              <p class="feature-para">
+                Our website is simple, clean, and user‑friendly, so you can shop with ease anytime.
+              </p>
             </div>
           </div>
 
@@ -173,8 +188,9 @@
                 <img src="images/truck.svg" alt="" class="img-fluid">
               </div>
               <h3 class="feature-heading">24/7 Support</h3>
-              <p class="feature-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est natus aliquam
-                sapiente dolores eius, et pariatur quam deleniti !</p>
+              <p class="feature-para">
+                Have questions? Our support team is always ready to help you—day or night.
+              </p>
             </div>
           </div>
 
@@ -185,66 +201,82 @@
                 <img src="images/truck.svg" alt="" class="img-fluid">
               </div>
               <h3 class="feature-heading">Secure Payment</h3>
-              <p class="feature-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est natus aliquam
-                sapiente dolores eius, et pariatur quam deleniti !</p>
+              <p class="feature-para">
+                Pay safely with trusted payment options and enjoy a worry‑free shopping experience.
+              </p>
             </div>
           </div>
         </div>
       </div>
+
+      <!-- Right Column: Image -->
       <div class="col-lg-5 col-md-12 text-center">
-
-        <img src="images/why-choose-us-img.jpg" alt="" class="img-fluid img-about" style="width: 376px; height: 430px;">
+        <img src="images/why-choose-us-img.jpg" alt="Why Choose Us" class="img-fluid img-about"
+          style="width: 376px; height: 430px;">
       </div>
-
 
     </div>
   </div>
   <!--About us section ends-->
 
+
   <!-- Service section starts -->
-<div class="service-section py-5">
-  <div class="container">
-    <div class="row align-items-center" style="margin-top: 50px;">
-      
-      <!-- Images Section -->
-      <div class="col-lg-7 col-md-12 mb-4 mb-lg-0">
-        <div class="row g-3">
-          <div class="col-7">
-            <img src="images/img-grid-1.jpg" alt="" class="img-fluid rounded-3">
-          </div>
-          <div class="col-5">
-            <img src="images/img-grid-2.jpg" alt="" class="img-fluid rounded-3 mb-3">
-            <img src="images/img-grid-3.jpg" alt="" class="img-fluid rounded-3">
+  <div class="service-section py-5">
+    <div class="container">
+      <div class="row align-items-center" style="margin-top: 50px;">
+
+        <!-- Images Section -->
+        <div class="col-lg-7 col-md-12 mb-4 mb-lg-0 position-relative">
+          <div class="row g-3">
+
+            <!-- Main Image + Overlapping -->
+            <div class="col-7 position-relative">
+              <img src="images/img-grid-1.jpg" alt="Main Interior" class="img-fluid" style="border-radius: 20px;">
+
+              <!-- Overlapping Image (hidden on mobile) -->
+              <img src="images/img-grid-3.jpg" alt="Overlapping Interior" class="img-fluid d-none d-lg-block"
+                style="border-radius: 20px; width: 60%; position: absolute; top: 60%; left: 90%;">
+            </div>
+
+            <!-- Side Image -->
+            <div class="col-5">
+              <img src="images/img-grid-2.jpg" alt="Side Interior" class="img-fluid mb-3" style="border-radius: 20px;">
+
+              <!-- Overlapping Image (mobile version, stacked naturally) -->
+              <img src="images/img-grid-3.jpg" alt="Overlapping Interior Mobile" class="img-fluid d-lg-none mt-3"
+                style="border-radius: 20px;">
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- Text Section -->
-      <div class="col-lg-5 col-md-12">
-        <h2 class="service-head mb-4">We Help You Make Modern <br>Interior Design</h2>
-        <p class="service-para mb-4">
-          Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac
-          aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant morbi
-          tristique senectus et netus et malesuada.
-        </p>
+        <!-- Text Section -->
+        <div class="col-lg-5 col-md-12">
+          <h2 class="service-head mb-4">We Help You Design <br>Modern & Stylish Spaces</h2>
+          <p class="service-para mb-4">
+            Our team turns your vision into reality with unique designs that blend functionality and elegance. From
+            planning to finishing touches, we make every corner of your home beautiful and practical.
+          </p>
 
-        <div class="service-list">
-          <ul class="list-unstyled mb-3">
-            <li>✔ Donec vitae odio quis nisl dapibus malesuada</li>
-            <li>✔ Donec vitae odio quis nisl dapibus malesuada</li>
-          </ul>
-          <ul class="list-unstyled mb-4">
-            <li>✔ Donec vitae odio quis nisl dapibus malesuada</li>
-            <li>✔ Donec vitae odio quis nisl dapibus malesuada</li>
-          </ul>
-          <button class="service-btn px-4 py-3 fw-bold rounded-pill">Explore</button>
+          <div class="service-list">
+            <ul class="list-unstyled mb-3">
+              <li>✔ Personalized interior solutions for every style</li>
+              <li>✔ High-quality materials that last for years</li>
+            </ul>
+            <ul class="list-unstyled mb-4">
+              <li>✔ Expert designers guiding you step by step</li>
+              <li>✔ Hassle-free process from start to finish</li>
+            </ul>
+            <button class="service-btn px-4 py-3 fw-bold rounded-pill">Explore</button>
+          </div>
         </div>
-      </div>
 
+      </div>
     </div>
   </div>
-</div>
-<!-- Service section ends -->
+  <!-- Service section ends -->
+
+  <!-- Service section ends -->
+
 
 
   <!--Popular products section starts-->
@@ -259,206 +291,239 @@
     <div class="row mt-5 justify-content-center text-center">
       <div class="col-md-4">
         <div class="img-product">
-          <img src="images/product-1.png" alt="" class="img-fluid" style="width: 120px;height: 120px;">
+          <img src="images/product-1.png" alt="Nordic Chair" class="img-fluid" style="width: 120px;height: 120px;">
           <h6>Nordic Chair</h6>
-          <p class="popular-para">Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio</p>
+          <p class="popular-para ">A sleek, minimalist chair designed for <br>comfort and modern living.</p>
         </div>
       </div>
+
       <div class="col-md-4">
         <div class="img-product">
-          <img src="images/product-2.png" alt="" class="img-fluid" style="width: 120px;height: 120px;">
+          <img src="images/product-2.png" alt="Kruzo Aero Chair" class="img-fluid" style="width: 120px;height: 120px;">
           <h6>Kruzo Aero Chair</h6>
-          <p class="popular-para">Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio</p>
+          <p class="popular-para">Lightweight yet durable, perfect for your<br> workspace or reading nook.</p>
         </div>
       </div>
+
       <div class="col-md-4">
         <div class="img-product">
-          <img src="images/product-3.png" alt="" class="img-fluid" style="width: 120px;height: 120px;">
+          <img src="images/product-3.png" alt="Ergonomic Chair" class="img-fluid" style="width: 120px;height: 120px;">
           <h6>Ergonomic Chair</h6>
-          <p class="popular-para">Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio</p>
+          <p class="popular-para">Designed to support your posture and keep<br> you comfortable all day.</p>
         </div>
       </div>
     </div>
-  </div>
-  <!--Popular products section ends-->
 
-  <!--Testimonials section starts-->
-  <div class="testimonial">
+    <!--Popular products section ends-->
+
+
+    <!--Testimonials section starts-->
+    <div class="testimonial">
+      <div class="container">
+        <div class="row " style="margin-top: 100px;">
+          <div class="col-12">
+            <h2 class="testi-head text-center mb-5">Testimonials</h2>
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="images/person-1.jpg" class="d-block rounded-circle mx-auto mt-3" alt="Priya Sharma"
+                    style="width: 140px; height: 140px; margin-bottom: 130px;">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Priya Sharma</h5>
+                    <p>“Decorify transformed my living room into a modern, cozy space.
+                      The team was amazing to work with!”</p>
+                  </div>
+                </div>
+
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="images/person_4.jpg" class="d-block rounded-circle mx-auto mt-3" alt="Ananya Patel"
+                    style="width: 140px; height: 140px; margin-bottom: 130px;">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Ananya Patel</h5>
+                    <p>“Excellent service and attention to detail!
+                      My home feels brand new, and I couldn’t be happier.”</p>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <img src="images/person_3.jpg" class="d-block rounded-circle mx-auto mt-3" alt="Rahul Mehta"
+                    style="width: 140px; height: 140px; margin-bottom: 130px;">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Rahul Mehta</h5>
+                    <p>“From design to execution, the process was seamless.
+                      Decorify made my dream interior come true!”</p>
+                  </div>
+                </div>
+
+              </div>
+
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Testimonials section ends-->
+
+    <!-- Contact us section starts -->
+    <div class="contact py-5">
+      <div class="container">
+        <div class="row align-items-center">
+
+          <!-- LEFT SIDE: Newsletter -->
+          <div class="col-lg-6 col-md-12 mb-4">
+            <h2 class="newssettler-head">
+              <i class="fa-solid fa-envelope"></i> Subscribe to Newsletter
+            </h2>
+
+
+            <form id="subscribeForm">
+              <div class="mb-3 mt-3">
+                <input type="text" id="name" class="form-control py-2" placeholder="Enter your name">
+              </div>
+              <div class="mb-3">
+                <input type="email" id="email" class="form-control py-2" placeholder="Enter your email">
+              </div>
+              <button type="submit" class="btn-contact px-4 py-2 rounded-pill">
+                <i class="fa-solid fa-paper-plane"></i> Subscribe
+              </button>
+            </form>
+
+            <script>
+              document.getElementById("subscribeForm").addEventListener("submit", function (event) {
+                event.preventDefault(); 
+
+                let name = document.getElementById("name").value.trim();
+                let email = document.getElementById("email").value.trim();
+
+                let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+                if (name === "") {
+                  alert("Please enter your name.");
+                  return;
+                }
+                if (email === "" ||  !emailPattern.test(email)) {
+                  alert("Please enter a valid email address.");
+                  return;
+                }
+
+                alert(" Subscription Successful!");
+                this.submit(); 
+              });
+            </script>
+
+ </div>
+
+          <div class="col-lg-6 col-md-12 text-center">
+            <img src="images/sofa.png" class="img-fluid" style="width: 60%; max-width: 300px;">
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!--  Footer main section -->
+    <div class="container mt-5">
+      <div class="row">
+
+        <!-- Footer Left Info -->
+        <div class="col-lg-4 col-md-12 mb-4 text-center text-lg-start">
+          <h2 class="contact-head mb-3">Furni</h2>
+          <p class="contact-para mb-3">
+            At Decorify, we believe every space tells a story. Our designs bring comfort, style,
+            and elegance into your home, making every corner truly yours.
+          </p>
+          <ul class="list-unstyled d-flex gap-4 justify-content-center justify-content-lg-start">
+            <li><i class="fa-brands fa-facebook fa-xl"></i></li>
+            <li><i class="fa-brands fa-twitter fa-xl"></i></li>
+            <li><i class="fa-brands fa-instagram fa-xl"></i></li>
+            <li><i class="fa-brands fa-linkedin fa-xl"></i></li>
+          </ul>
+        </div>
+
+        <!-- Footer Links -->
+        <div class="col-lg-8 col-md-12">
+          <div class="row text-center text-lg-start">
+            <div class="col-6 col-md-3 mb-4">
+              <ul class="list-unstyled">
+                <li class="mb-3"><a href="#" class="text-decoration-none text-dark">About</a></li>
+                <li class="mb-3"><a href="#" class="text-decoration-none text-dark">Services</a></li>
+                <li class="mb-3"><a href="#" class="text-decoration-none text-dark">Blog</a></li>
+                <li class="mb-3"><a href="#" class="text-decoration-none text-dark">Contact us</a></li>
+              </ul>
+            </div>
+
+            <div class="col-6 col-md-3 mb-4">
+              <ul class="list-unstyled">
+                <li class="mb-3"><a href="#" class="text-decoration-none text-dark">Support</a></li>
+                <li class="mb-3"><a href="#" class="text-decoration-none text-dark">Knowledge base</a></li>
+                <li class="mb-3"><a href="#" class="text-decoration-none text-dark">Live chat</a></li>
+              </ul>
+            </div>
+
+            <div class="col-6 col-md-3 mb-4">
+              <ul class="list-unstyled">
+                <li class="mb-3"><a href="#" class="text-decoration-none text-dark">Jobs</a></li>
+                <li class="mb-3"><a href="#" class="text-decoration-none text-dark">Our team</a></li>
+                <li class="mb-3"><a href="#" class="text-decoration-none text-dark">Leadership</a></li>
+                <li class="mb-3"><a href="#" class="text-decoration-none text-dark">Privacy policy</a></li>
+              </ul>
+            </div>
+
+            <div class="col-6 col-md-3 mb-4">
+              <ul class="list-unstyled">
+                <li class="mb-3"><a href="#" class="text-decoration-none text-dark">Nordic Chair</a></li>
+                <li class="mb-3"><a href="#" class="text-decoration-none text-dark">Kruzo Aero</a></li>
+                <li class="mb-3"><a href="#" class="text-decoration-none text-dark">Ergonomic Chair</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!--  Copyright -->
+    <hr class="mt-5">
     <div class="container">
-      <div class="row " style="margin-top: 100px;">
-        <div class="col-12">
-          <h2 class="testi-head text-center mb-5">Testimonials</h2>
-          <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="10000">
-                <img src="images/person-1.jpg" class="d-block rounded-circle mx-auto mt-3" alt="..."
-                  style="width: 140px; height: 140px; margin-bottom: 130px;">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>First slide label</h5>
-                  <p>Some representative placeholder content for the first slide.</p>
-                </div>
-              </div>
-
-              <div class="carousel-item" data-bs-interval="2000">
-                <img src="images/person_4.jpg" class="d-block rounded-circle mx-auto mt-3" alt="..."
-                  style="width: 140px; height: 140px; margin-bottom: 130px;">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>Some representative placeholder content for the second slide.</p>
-                </div>
-              </div>
-
-              <div class="carousel-item">
-                <img src="images/person_3.jpg" class="d-block rounded-circle mx-auto mt-3" alt="..."
-                  style="width: 140px; height: 140px; margin-bottom: 130px;">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
-                </div>
-              </div>
-            </div>
-
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
-              data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
-              data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
+      <div class="row mb-3 text-center text-lg-start">
+        <div class="col-lg-6 col-md-12 mb-2">
+          <p class="copy-para">Copyright ©2025. All Rights Reserved. — Designed with love by Untree.co Distributed By
+            ThemeWagon</p>
         </div>
-      </div>
-    </div>
-  </div>
-  <!--Testimonials section ends-->
-
- <!-- Contact us section starts -->
-<div class="contact py-5">
-  <div class="container">
-    <div class="row align-items-center">
-      
-      <!-- LEFT SIDE: Newsletter -->
-      <div class="col-lg-6 col-md-12 mb-4">
-        <h2 class="newssettler-head">
-          <i class="fa-solid fa-envelope"></i> Subscribe to Newsletter
-        </h2>
-        <form>
-          <div class="mb-3 mt-3">
-            <input type="text" class="form-control py-2" placeholder="Enter your name">
-          </div>
-          <div class="mb-3">
-            <input type="email" class="form-control py-2" placeholder="Enter your email">
-          </div>
-          <button class="btn-contact px-4 py-2 rounded-pill">
-            <i class="fa-solid fa-paper-plane"></i> Subscribe
-          </button>
-        </form>
-      </div>
-
-      <!-- RIGHT SIDE: Image -->
-      <div class="col-lg-6 col-md-12 text-center">
-        <img src="images/sofa.png" class="img-fluid" style="width: 60%; max-width: 300px;">
-      </div>
-
-    </div>
-  </div>
-</div>
-
-<!--  Footer main section -->
-<div class="container mt-5">
-  <div class="row">
-
-    <!-- Footer Left Info -->
-    <div class="col-lg-4 col-md-12 mb-4 text-center text-lg-start">
-      <h2 class="contact-head mb-3">Furni</h2>
-      <p class="contact-para mb-3">
-        Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus
-        malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.
-      </p>
-      <ul class="list-unstyled d-flex gap-4 justify-content-center justify-content-lg-start">
-        <li><i class="fa-brands fa-facebook fa-xl"></i></li>
-        <li><i class="fa-brands fa-twitter fa-xl"></i></li>
-        <li><i class="fa-brands fa-instagram fa-xl"></i></li>
-        <li><i class="fa-brands fa-linkedin fa-xl"></i></li>
-      </ul>
-    </div>
-
-    <!-- Footer Links -->
-    <div class="col-lg-8 col-md-12">
-      <div class="row text-center text-lg-start">
-        <div class="col-6 col-md-3 mb-4">
-          <ul class="list-unstyled">
-            <li class="mb-3"><a href="#" class="text-decoration-none text-dark">About</a></li>
-            <li class="mb-3"><a href="#" class="text-decoration-none text-dark">Services</a></li>
-            <li class="mb-3"><a href="#" class="text-decoration-none text-dark">Blog</a></li>
-            <li class="mb-3"><a href="#" class="text-decoration-none text-dark">Contact us</a></li>
-          </ul>
-        </div>
-
-        <div class="col-6 col-md-3 mb-4">
-          <ul class="list-unstyled">
-            <li class="mb-3"><a href="#" class="text-decoration-none text-dark">Support</a></li>
-            <li class="mb-3"><a href="#" class="text-decoration-none text-dark">Knowledge base</a></li>
-            <li class="mb-3"><a href="#" class="text-decoration-none text-dark">Live chat</a></li>
-          </ul>
-        </div>
-
-        <div class="col-6 col-md-3 mb-4">
-          <ul class="list-unstyled">
-            <li class="mb-3"><a href="#" class="text-decoration-none text-dark">Jobs</a></li>
-            <li class="mb-3"><a href="#" class="text-decoration-none text-dark">Our team</a></li>
-            <li class="mb-3"><a href="#" class="text-decoration-none text-dark">Leadership</a></li>
-            <li class="mb-3"><a href="#" class="text-decoration-none text-dark">Privacy policy</a></li>
-          </ul>
-        </div>
-
-        <div class="col-6 col-md-3 mb-4">
-          <ul class="list-unstyled">
-            <li class="mb-3"><a href="#" class="text-decoration-none text-dark">Nordic Chair</a></li>
-            <li class="mb-3"><a href="#" class="text-decoration-none text-dark">Kruzo Aero</a></li>
-            <li class="mb-3"><a href="#" class="text-decoration-none text-dark">Ergonomic Chair</a></li>
+        <div class="col-lg-6 col-md-12">
+          <ul class="copy-list list-unstyled d-flex justify-content-center justify-content-lg-end">
+            <li>Terms & Conditions</li>
+            <li class="ms-3">Privacy Policy</li>
           </ul>
         </div>
       </div>
     </div>
-
-  </div>
-</div>
-
-<!--  Copyright -->
-<hr class="mt-5">
-<div class="container">
-  <div class="row mb-3 text-center text-lg-start">
-    <div class="col-lg-6 col-md-12 mb-2">
-      <p class="copy-para">Copyright ©2025. All Rights Reserved. — Designed with love by Untree.co Distributed By ThemeWagon</p>
-    </div>
-    <div class="col-lg-6 col-md-12">
-      <ul class="copy-list list-unstyled d-flex justify-content-center justify-content-lg-end">
-        <li>Terms & Conditions</li>
-        <li class="ms-3">Privacy Policy</li>
-      </ul>
-    </div>
-  </div>
-</div>
-<!--  Contact us section ends -->
+    <!--  Contact us section ends -->
 
 
 
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>
