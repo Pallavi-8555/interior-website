@@ -146,22 +146,23 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item ">
-                        <a class="nav-link active" style="color: #f9bf29;" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" style="color: #f9bf29;" aria-current="page"
+                            href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="shop.html">Shop</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="about.html">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link" href="service.html">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
+                        <a class="nav-link" href="blog.html">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
+                        <a class="nav-link" href="contact.html">Contact Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#"><i class="fa-solid fa-user"></i></a>
@@ -174,7 +175,6 @@
         </div>
     </nav>
     <!-- NAVBAR ENDS -->
-
 
     <!--  HEADER SECTION STARTS -->
     <div class="header-section" style="background-color: #3B5D50; padding:  0;">
@@ -206,7 +206,7 @@
     <!-- HEADER SECTION ENDS -->
 
 
-    <!-- ✅ Contact Form Section -->
+    <!--  Contact Form Section -->
     <div class="contact-section py-5" style="background-color: #f8f9fa;">
         <div class="container">
             <div class="row justify-content-center">
@@ -216,8 +216,8 @@
                     <p class="text-center mb-4 text-muted">Have a question or want to work with us? Fill out the form
                         below!</p>
 
-                    <!-- ✅ Contact Form -->
-                    <form>
+                    <!--  Contact Form -->
+                    <form id="contactForm">
                         <!-- Name Field -->
                         <div class="mb-3">
                             <label for="name" class="form-label fw-bold">Name</label>
@@ -244,7 +244,7 @@
                             <button type="submit" class="btn-submit px-4 py-2 rounded-pill">Send Message</button>
                         </div>
                     </form>
-                    <!-- ✅ Contact Form Ends -->
+                    <!--  Contact Form Ends -->
 
                 </div>
             </div>
@@ -364,7 +364,37 @@
     </div>
     <!--  Contact us section ends -->
 
+    <script>
+        document.getElementById('contactForm').addEventListener("submit", function (e) {
+            e.preventDefault();
 
+            // Get form field values
+            let name = document.getElementById("name").value.trim();
+            let email = document.getElementById("email").value.trim();
+            let message = document.getElementById("message").value.trim();
+
+            // Simple validation checks
+            if (name === "" || name.length < 2) {
+                alert("Please enter a valid name (at least 2 characters).");
+                return;
+            }
+
+            let emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+            if (!email.match(emailPattern)) {
+                alert("Please enter a valid email address.");
+                return;
+            }
+
+            if (message === "" || message.length < 10) {
+                alert("Message must be at least 10 characters.");
+                return;
+            }
+
+         
+            alert("Form submitted successfully!");
+            this.reset(); // clear the form
+        });
+    </script>
 
     <!--  Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
