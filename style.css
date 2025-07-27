@@ -180,3 +180,23 @@ body {
   font-size: 14px;
   color: #6a6a6a;
 }
+.blog-card {
+  border: 1px solid #eee;
+  border-radius: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+}
+
+.read-more {
+  color: #3B5D50;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.read-more:hover {
+  color: #3B5D50;
+  text-decoration: underline;
+}
