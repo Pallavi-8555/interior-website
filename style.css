@@ -118,6 +118,18 @@ body {
   background-color:rgba(0, 0, 0, 0.889);
   color: white;
 }
+
+
+.testi-head{
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+    color: #2f2f2f;
+}
+.btn-contact{
+  border: 2px solid #3B5D50;
+  background-color: #3B5D50;
+  color: white;
+}
 .contact-head{
   font-family: 'Inter', sans-serif;
   font-size: 32px;
@@ -143,21 +155,13 @@ body {
     display: flex;
     justify-content: end;
 }
-.btn-contact{
-  border: 2px solid #3B5D50;
-  background-color: #3B5D50;
-  color: white;
-}
+
 .newssettler-head{
 font-family: 'Inter', sans-serif;
   font-size: 18px;
   color: #3B5D50;
 }
-.testi-head{
-  font-family: 'Inter', sans-serif;
-  font-size: 32px;
-    color: #2f2f2f;
-}
+
 .last-list{
   font-family: 'Inter', sans-serif;
   font-size: 14px;
