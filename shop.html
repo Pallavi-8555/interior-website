@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="responsive.css">
 
   <title>Shop</title>
-  
+
 </head>
 
 <body>
@@ -41,7 +41,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link "  aria-current="page" href="index.html">Home</a>
+              <a class="nav-link " aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="shop.html">Shop</a>
@@ -70,7 +70,7 @@
     </nav>
     <!--  Navbar Ends -->
 
-    <!-- Header Section Starts -->
+    <!-- Hero Section Starts -->
     <div class="row d-flex align-items-center ms-5" style="margin-left: 60px; ">
       <div class="col-md-5 mb-4 col-12">
         <h1 class="fw-bold custom-heading" style="color: white;">Shop</h1>
@@ -80,9 +80,12 @@
           that truly reflect you.
         </p>
 
-
-        <button class="btn-shop rounded-pill mt-4 px-3 py-2">Shop Now</button>
-        <button class="btn-explore rounded-pill mt-4 px-4 py-2">Explore</button>
+        <a href="shop.html">
+          <button class="btn-shop rounded-pill mt-4 px-3 py-2">Shop Now</button>
+        </a>
+        <a href="gallery.html">
+          <button class="btn-explore rounded-pill mt-4 px-4 py-2">Explore</button>
+        </a>
       </div>
 
       <div class="col-md-7 col-12">
@@ -91,7 +94,7 @@
     </div>
 
   </div>
-  <!--  Header Section Ends -->
+  <!--  Hero Section Ends -->
 
 
 
@@ -203,10 +206,15 @@
               let name = document.getElementById("name").value.trim();
               let email = document.getElementById("email").value.trim();
 
+              let namePattern = /^[A-Za-z\s]+$/;
               let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
               if (name === "") {
                 alert("Please enter your name.");
+                return;
+              }
+              if (!namePattern.test(name)) {
+                alert("Name should only contain alphabets.");
                 return;
               }
               if (email === "" || !emailPattern.test(email)) {
@@ -214,7 +222,7 @@
                 return;
               }
 
-              alert(" Subscription Successful!");
+              alert("Subscription Successful!");
               this.submit();
             });
           </script>

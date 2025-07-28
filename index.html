@@ -76,7 +76,7 @@
     </nav>
     <!--  Navbar Ends -->
 
-    <!-- Header Section Starts -->
+    <!-- Hero Section Starts -->
     <div class="row d-flex align-items-center ms-5" style="margin-left: 60px; ">
       <div class="col-md-5 mb-4 col-12">
         <h1 class="fw-bold custom-heading" style="color: white;">Modern Interior <br> Design Studio</h1>
@@ -86,9 +86,12 @@
           that truly reflect you.
         </p>
 
-
+<a href="shop.html">
         <button class="btn-shop rounded-pill mt-4 px-3 py-2">Shop Now</button>
-        <button class="btn-explore rounded-pill mt-4 px-4 py-2">Explore</button>
+        </a>
+<a href="gallery.html">
+  <button class="btn-explore rounded-pill mt-4 px-4 py-2">Explore</button>
+</a>
       </div>
 
       <div class="col-md-7 col-12">
@@ -97,19 +100,18 @@
     </div>
 
   </div>
-  <!--  Header Section Ends -->
+  <!--  Hero Section Ends -->
 
   <!--SHOP section start-->
   <div class="container">
     <div class="row" style="margin-top: 60px;">
 
-      <div class="col-lg-3 col-sm-12 text-md-center text-lg-start col-12 text-center">
+      <div class="col-lg-3 col-sm-12 text-md-center text-lg-start col-12 text-center py-5">
         <h3 class="shop-heading mt-4">Crafted with <br> excellence & care.</h3>
-        <p class="shop-para mt-3">
+        <p class="shop-para ">
           Discover timeless furniture made from premium materials, blending style, comfort, and durability to elevate
           every corner of your home.
         </p>
-        <button class="btn-1 rounded-pill px-4 py-2 mb-4">Explore</button>
       </div>
 
       <!-- Products -->
@@ -225,32 +227,31 @@
     <div class="container">
       <div class="row align-items-center" style="margin-top: 50px;">
 
-        <!-- Images Section -->
-        <div class="col-lg-7 col-md-12 mb-4 mb-lg-0 position-relative">
-          <div class="row g-3">
+       <!-- Images Section -->
+<div class="col-lg-7 col-md-12 mb-4 mb-lg-0 position-relative">
+  <div class="row g-3">
 
-            <!-- Main Image + Overlapping -->
-            <div class="col-7 position-relative">
-              <img src="images/img-grid-1.jpg" alt="Main Interior" class="img-fluid" style="border-radius: 20px;">
+    <!-- Main Image + Overlapping -->
+    <div class="col-7 position-relative">
+      <img src="images/img-grid-1.jpg" alt="Main Interior" class="img-fluid" style="border-radius: 20px;">
 
-              <!-- Overlapping Image (hidden on mobile) -->
-              <img src="images/img-grid-3.jpg" alt="Overlapping Interior" class="img-fluid d-none d-lg-block"
-                style="border-radius: 20px; width: 60%; position: absolute; top: 60%; left: 90%;">
-            </div>
+      <!-- ✅ Keep this image for ALL screens -->
+      <img src="images/img-grid-3.jpg" alt="Overlapping Interior" 
+        class="img-fluid"
+        style="border-radius: 20px; width: 60%; position: absolute; top: 60%; left: 80%;">
+    </div>
 
-            <!-- Side Image -->
-            <div class="col-5">
-              <img src="images/img-grid-2.jpg" alt="Side Interior" class="img-fluid mb-3" style="border-radius: 20px;">
+    <!-- Side Image -->
+    <div class="col-5">
+      <img src="images/img-grid-2.jpg" alt="Side Interior" class="img-fluid mb-3" style="border-radius: 20px;">
+    </div>
 
-              <!-- Overlapping Image (mobile version, stacked naturally) -->
-              <img src="images/img-grid-3.jpg" alt="Overlapping Interior Mobile" class="img-fluid d-lg-none mt-3"
-                style="border-radius: 20px;">
-            </div>
-          </div>
-        </div>
+  </div>
+</div>
+
 
         <!-- Text Section -->
-        <div class="col-lg-5 col-md-12">
+        <div class="col-lg-5 col-md-12 ">
           <h2 class="service-head mb-4">We Help You Design <br>Modern & Stylish Spaces</h2>
           <p class="service-para mb-4">
             Our team turns your vision into reality with unique designs that blend functionality and elegance. From
@@ -259,14 +260,12 @@
 
           <div class="service-list">
             <ul class="list-unstyled mb-3">
-              <li>✔ Personalized interior solutions for every style</li>
-              <li>✔ High-quality materials that last for years</li>
+              <li class="mb-2">✔ Personalized interior solutions for every style</li>
+              <li class="mb-2">✔ High-quality materials that last for years</li>
+          <li class="mb-2">✔ Expert designers guiding you step by step</li>
+              <li class="mb-2">✔ Hassle-free process from start to finish</li>
             </ul>
-            <ul class="list-unstyled mb-4">
-              <li>✔ Expert designers guiding you step by step</li>
-              <li>✔ Hassle-free process from start to finish</li>
-            </ul>
-            <button class="service-btn px-4 py-3 fw-bold rounded-pill">Explore</button>
+            <button class="service-btn px-4 py-3 fw-bold rounded-pill mt-2" >See More</button>
           </div>
         </div>
 
@@ -384,52 +383,57 @@
 
     <!-- Contact us section starts -->
     <div class="contact py-5">
-      <div class="container">
-        <div class="row align-items-center">
+  <div class="container">
+    <div class="row align-items-center">
 
-          <!-- LEFT SIDE: Newsletter -->
-          <div class="col-lg-6 col-md-12 mb-4">
-            <h2 class="newssettler-head">
-              <i class="fa-solid fa-envelope"></i> Subscribe to Newsletter
-            </h2>
+      <!-- LEFT SIDE: Newsletter -->
+      <div class="col-lg-6 col-md-12 mb-4">
+        <h2 class="newssettler-head">
+          <i class="fa-solid fa-envelope"></i> Subscribe to Newsletter
+        </h2>
 
+        <form id="subscribeForm">
+          <div class="mb-3 mt-3">
+            <input type="text" id="name" class="form-control py-2" placeholder="Enter your name">
+          </div>
+          <div class="mb-3">
+            <input type="email" id="email" class="form-control py-2" placeholder="Enter your email">
+          </div>
+          <button type="submit" class="btn-contact px-4 py-2 rounded-pill">
+            <i class="fa-solid fa-paper-plane"></i> Subscribe
+          </button>
+        </form>
 
-            <form id="subscribeForm">
-              <div class="mb-3 mt-3">
-                <input type="text" id="name" class="form-control py-2" placeholder="Enter your name">
-              </div>
-              <div class="mb-3">
-                <input type="email" id="email" class="form-control py-2" placeholder="Enter your email">
-              </div>
-              <button type="submit" class="btn-contact px-4 py-2 rounded-pill">
-                <i class="fa-solid fa-paper-plane"></i> Subscribe
-              </button>
-            </form>
+        <script>
+          document.getElementById("subscribeForm").addEventListener("submit", function (event) {
+            event.preventDefault();
 
-            <script>
-              document.getElementById("subscribeForm").addEventListener("submit", function (event) {
-                event.preventDefault(); 
+            let name = document.getElementById("name").value.trim();
+            let email = document.getElementById("email").value.trim();
 
-                let name = document.getElementById("name").value.trim();
-                let email = document.getElementById("email").value.trim();
+            let namePattern = /^[A-Za-z\s]+$/; 
+            let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-                let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (name === "") {
+              alert("Please enter your name.");
+              return;
+            }
+            if (!namePattern.test(name)) {
+              alert("Name should only contain alphabets.");
+              return;
+            }
+            if (email === "" || !emailPattern.test(email)) {
+              alert("Please enter a valid email address.");
+              return;
+            }
 
-                if (name === "") {
-                  alert("Please enter your name.");
-                  return;
-                }
-                if (email === "" ||  !emailPattern.test(email)) {
-                  alert("Please enter a valid email address.");
-                  return;
-                }
+            alert("Subscription Successful!");
+            this.submit();
+          });
+        </script>
 
-                alert(" Subscription Successful!");
-                this.submit(); 
-              });
-            </script>
+      </div>
 
- </div>
 
           <div class="col-lg-6 col-md-12 text-center">
             <img src="images/sofa.png" class="img-fluid" style="width: 60%; max-width: 300px;">

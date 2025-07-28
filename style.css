@@ -117,15 +117,14 @@ body {
 }
 
 .service-btn {
-  background-color: rgba(0, 0, 0, 0.808);
-  ;
+   background-color: #3B5D50;
   color: white;
-  border: transparent;
+  border: 2px solid white;
 }
 
 .service-btn:hover {
-  background-color: rgba(0, 0, 0, 0.889);
-  color: white;
+  background-color: #f9bf29;
+  color: black;
 }
 
 
@@ -206,4 +205,10 @@ body {
 .read-more:hover {
   color: #3B5D50;
   text-decoration: underline;
+}
+
+.btn-send{
+  border: 2px solid #3B5D50;
+  background-color: #3B5D50;
+  color: white;
 }
